@@ -1,0 +1,15 @@
+'Format to generate graph at https://www.planttext.com
+
+@startuml
+
+title Data flow diagram
+
+actor "View (VC or SwiftUI)" as View
+
+View -> ViewModel : receive(event)
+ViewModel -> ViewModel : 1. execute Feedbacks
+ViewModel -> ViewModel : 2. self.stateChanged() - update state
+ViewModel -> View : stateChanged(old,new)
+View -> View : update UI
+
+@enduml

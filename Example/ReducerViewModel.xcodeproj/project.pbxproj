@@ -7,27 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94C9DFAE247544DA004AD1AC /* ReducerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C9DFAD247544DA004AD1AC /* ReducerViewModel.swift */; };
 		A919EF632440644F006CF32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919EF622440644F006CF32C /* AppDelegate.swift */; };
 		A919EF652440644F006CF32C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919EF642440644F006CF32C /* SceneDelegate.swift */; };
-		A919EF672440644F006CF32C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919EF662440644F006CF32C /* ViewController.swift */; };
+		A919EF672440644F006CF32C /* ExampleUIViewControllerFromStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919EF662440644F006CF32C /* ExampleUIViewControllerFromStoryboard.swift */; };
 		A919EF6A2440644F006CF32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A919EF682440644F006CF32C /* Main.storyboard */; };
 		A919EF6C24406451006CF32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A919EF6B24406451006CF32C /* Assets.xcassets */; };
 		A919EF6F24406451006CF32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A919EF6D24406451006CF32C /* LaunchScreen.storyboard */; };
-		A919EF782440647B006CF32C /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919EF772440647B006CF32C /* MyViewModel.swift */; };
-		A919EF7A244064A2006CF32C /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919EF79244064A2006CF32C /* Observable.swift */; };
+		A919EF782440647B006CF32C /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919EF772440647B006CF32C /* ExampleViewModel.swift */; };
+		A93BA8722466B00D00B22D20 /* StoryboardViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93BA8712466B00D00B22D20 /* StoryboardViewControllerWrapper.swift */; };
+		A9AA25602465C912006F675D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AA255F2465C912006F675D /* ActivityIndicator.swift */; };
+		A9F887BF2459EAE20019EC4D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F887BE2459EAE20019EC4D /* MainView.swift */; };
+		A9F887C22459EF850019EC4D /* ExampleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F887C12459EF850019EC4D /* ExampleSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94C9DFAD247544DA004AD1AC /* ReducerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReducerViewModel.swift; path = ../ReducerViewModel.swift; sourceTree = "<group>"; };
 		A919EF5F2440644F006CF32C /* ReducerViewModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReducerViewModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A919EF622440644F006CF32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A919EF642440644F006CF32C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A919EF662440644F006CF32C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A919EF662440644F006CF32C /* ExampleUIViewControllerFromStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUIViewControllerFromStoryboard.swift; sourceTree = "<group>"; };
 		A919EF692440644F006CF32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A919EF6B24406451006CF32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A919EF6E24406451006CF32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A919EF7024406451006CF32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A919EF772440647B006CF32C /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
-		A919EF79244064A2006CF32C /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		A919EF772440647B006CF32C /* ExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
+		A93BA8712466B00D00B22D20 /* StoryboardViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardViewControllerWrapper.swift; sourceTree = "<group>"; };
+		A9AA255F2465C912006F675D /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		A9F887BE2459EAE20019EC4D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A9F887C12459EF850019EC4D /* ExampleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 		A919EF562440644F006CF32C = {
 			isa = PBXGroup;
 			children = (
+				94C9DFAD247544DA004AD1AC /* ReducerViewModel.swift */,
 				A919EF612440644F006CF32C /* ReducerViewModel */,
 				A919EF602440644F006CF32C /* Products */,
 			);
@@ -60,11 +69,11 @@
 		A919EF612440644F006CF32C /* ReducerViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				A919EF762440645B006CF32C /* Core */,
 				A919EF622440644F006CF32C /* AppDelegate.swift */,
 				A919EF642440644F006CF32C /* SceneDelegate.swift */,
-				A919EF662440644F006CF32C /* ViewController.swift */,
-				A919EF772440647B006CF32C /* MyViewModel.swift */,
+				A9F887BE2459EAE20019EC4D /* MainView.swift */,
+				A9F887BD2459EA340019EC4D /* UI */,
+				A9AA255E2465C901006F675D /* Helper */,
 				A919EF682440644F006CF32C /* Main.storyboard */,
 				A919EF6B24406451006CF32C /* Assets.xcassets */,
 				A919EF6D24406451006CF32C /* LaunchScreen.storyboard */,
@@ -73,12 +82,23 @@
 			path = ReducerViewModel;
 			sourceTree = "<group>";
 		};
-		A919EF762440645B006CF32C /* Core */ = {
+		A9AA255E2465C901006F675D /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				A919EF79244064A2006CF32C /* Observable.swift */,
+				A9AA255F2465C912006F675D /* ActivityIndicator.swift */,
+				A93BA8712466B00D00B22D20 /* StoryboardViewControllerWrapper.swift */,
 			);
-			path = Core;
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A9F887BD2459EA340019EC4D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A919EF772440647B006CF32C /* ExampleViewModel.swift */,
+				A919EF662440644F006CF32C /* ExampleUIViewControllerFromStoryboard.swift */,
+				A9F887C12459EF850019EC4D /* ExampleSwiftUIView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A919EF672440644F006CF32C /* ViewController.swift in Sources */,
-				A919EF7A244064A2006CF32C /* Observable.swift in Sources */,
+				A919EF672440644F006CF32C /* ExampleUIViewControllerFromStoryboard.swift in Sources */,
+				A9F887BF2459EAE20019EC4D /* MainView.swift in Sources */,
 				A919EF632440644F006CF32C /* AppDelegate.swift in Sources */,
-				A919EF782440647B006CF32C /* MyViewModel.swift in Sources */,
+				94C9DFAE247544DA004AD1AC /* ReducerViewModel.swift in Sources */,
+				A93BA8722466B00D00B22D20 /* StoryboardViewControllerWrapper.swift in Sources */,
+				A9AA25602465C912006F675D /* ActivityIndicator.swift in Sources */,
+				A9F887C22459EF850019EC4D /* ExampleSwiftUIView.swift in Sources */,
+				A919EF782440647B006CF32C /* ExampleViewModel.swift in Sources */,
 				A919EF652440644F006CF32C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ReducerViewModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ReducerViewModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
